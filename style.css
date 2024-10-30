@@ -1,26 +1,32 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+body{
+    overflow-x: hidden;
     background-color: black;
 }
 
 
 /*container-1 design */
 
+
 .heading-1{
-    color: white;
     font-weight: 500;
     margin-top: 50px;
     margin-left: 130px;
     cursor: pointer;
 }
+
+/*navacation bar design */
 .navbar{
     overflow: hidden;
 }
 .navbar a{
     float: left;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,60 +39,424 @@
     color: orangered;
 }
 
-/* Workout text and image style */
+/*main text and photo design */
 
-.bigtext{
-    color: white;
-    font-size: 150px;
-    font-weight: 700;
-    margin-left: 240px;
-    margin-top: 100px;
+.man-imagetext{
+    position: relative;
+    top: 10px;
 }
-.workout{
-    height: 600px;
+.imagemen{
+    height: 700px;
     width: 600px;
     position: relative;
-    left: 900px;
-    bottom: 280px;
+    left: 1000px;
+    top: 100px;
+    background-color: transparent;
+    z-index: 2;
 }
-.heading-sub1{
-    color: white;
+.heading-big{
+    font-size: 180px;
+    font-weight: 700;
+    position: absolute;
+    left: 280px;
+    bottom: 500px;
+    background-color: transparent;
+    z-index: 1;
+}
+.headsub{
     font-size: 15px;
     position: absolute;
-    bottom: 270px;
-    left: 240px;
+    left: 280px;
+    top: 550px;
+    color: #3f3e4b;
+    background-color: transparent;
 }
-
-
-/* button style */
-
-.btn1{
-    background-color: rgb(221, 85, 36);
-    color: white;
+.btn-1{
+    background-color: #dd5524;
     font-size: 18px;
-    height: 80px;
+    height: 60px;
     width: 200px;
     border: none;
     text-align: center;
     border-radius: 10px;
     font-weight: 600;
-    position: relative;
-    bottom: 500px;
-    left: 240px;
     cursor: pointer;
+    position: relative;
+    right: 330px;
+    bottom: 40px;
 }
-.lable-1{
-    background-color: rgb(28, 30, 40);
-    color: white;
-    height: 100px;
+.lable{
+    height: 95px;
     width: 200px;
+    background-color: #282731;
     border-radius: 10px;
     position: absolute;
-    top: 650px;
-    right: 850px; 
+    left: 950px;
+    top: 500px;
+    z-index: 3;
+}
+.lab{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(211, 211, 211);
+    position: relative;
+    left: 80px;
+    background-color: transparent;
+    bottom: 25px; 
+}
+.lab-p{
+    font-size: 15px;
+    color: rgb(211, 211, 211);
+    position: relative;
+    left: 80px;
+    bottom: 25px;
+    background-color: transparent;
+}
+.lable2{
+    height: 90px;
+    width: 200px;
+    background-color: #390e7d;
+    border-radius: 10px;
+    position: relative;
+    left: 1470px;
+    bottom: 120px;
+    z-index: 3;
+}
+.lab2{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(211, 211, 211);
+    position: relative;
+    left: 40px;
+    background-color: transparent;
+    top: 8px;
+}
+.lab-p2{
+    font-size: 15px;
+    color: rgb(211, 211, 211);
+    position: relative;
+    left: 40px;
+    top: 7px;
+    background-color: transparent;
+}
+
+.lable3{
+    height: 130px;
+    width: 220px;
+    background-color: #cd5e35;
+    border-radius: 10px;
+    position: relative;
+    left: 1410px;
+    bottom: 700px;
+    z-index: 3;
+}
+.lab3{
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(211, 211, 211);
+    position: absolute;
+    left: 20px;
+    background-color: transparent;
+    top: 50px;
+    
+}
+.lab-p3{
+    font-size: 18px;
+    color: rgb(160, 158, 158);
+    position: relative;
+    left: 170px;
+    top: 55px;
+    background-color: transparent;
+}
+.img-lable3{
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    position: relative;
+    left: 20px;
+    top: 20px;
 }
 .img-lable{
     height: 50px;
     width: 50px;
-    color: white;
+    background-color: transparent;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+/*sub branding  design */
+
+.brand-head{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(163, 163, 163);
+    position: absolute;
+    right: 1480px;
+    top: 800px;
+}
+.brands-img{
+    height: 60px;
+    position: relative;
+    left: 280px;
+    bottom: 90px;
+
+}
+
+
+/*Container02 design */
+
+.hed2{
+    background-color: transparent;
+    font-size: 35px;
+    position: absolute;
+    left: 280px;
+}
+.simal-hed{
+    background-color: transparent;
+    font-size: 15px;
+    position: absolute;
+    left: 280px;
+    top: 1200px;
+    color: #3f3e4b;
+}
+
+/*shap design */
+
+.shap-1{
+    height: 150px;
+    width: 300px;
+    background-color: #443956;
+    border-radius: 15px;
+    position: relative;
+    left: 280px;
+    top: 130px;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.shap-2{
+    height: 150px;
+    width: 300px;
+    background-color: #443956;
+    border-radius: 15px;
+    position: relative;
+    left: 280px;
+    top: 130px;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.shap-3{
+    height: 150px;
+    width: 300px;
+    background-color: #443956;
+    border-radius: 15px;
+    position: relative;
+    left: 280px;
+    top: 130px;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+.shap-4{
+    height: 150px;
+    width: 300px;
+    background-color: #443956;
+    border-radius: 15px;
+    position: relative;
+    left: 280px;
+    top: 130px;
+    display: inline-block;
+    margin-right: 23px;
+}
+
+
+.sub-hed{
+    font-size: 18px;
+    background-color: transparent;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.arrow-image{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: relative;
+    left: 260px;
+    top: 35px;
+
+}
+.sub-hed-2{
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+/*container-3 design */
+
+
+.yoga{
+    height: 580px;
+    width: 680px;
+    position: relative;
+    top: 100px;
+    left: 950px;
+}
+.yoga-letter{
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    top: 450px;
+    left: 280px;
+}
+.yoga-sub{
+    font-size: 15px;
+    position: relative;
+    top: 500px;
+    left: 280px;
+    color: #78797d;
+    line-height: 1.6;
+}
+.see-more{
+    font-size: 20px;
+    color: blue;
+    position: relative;
+    left: 280px;
+    top: 550px;
+}
+.see-arrow{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: relative;
+    left: 400px;
+    bottom: 29px;
+}
+
+/*container-4 design */
+
+.workout-girl{
+    height: 580px;
+    width: 680px;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}
+
+.insid-item{
+    position: relative;
+    left: 750px;
+    bottom: 600px;
+    background-color: transparent;
+}
+
+.inside-arrow{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: relative;
+    left: 400px;
+    top: 529px;
+}
+
+/*container-5 design */
+
+.membership{
+    font-size: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 160px;
+    left: 280px;
+}
+.lign{
+    width: 80%;
+    position: relative;
+    left: 280px;
+    top: 180px;
+    background-color: #404043;
+}
+
+.box1{
+    height: 630px;
+    width: 530px;
+    background-color: #181220;
+    position: relative;
+    top: 280px;
+    left: 400px;
+    display: inline-block;
+}
+.joind{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: transparent;
+    position: relative;
+    left: 190px;
+    top: 80px;
+}
+.joined-text{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: transparent;
+    position: relative;
+    top: 130px;
+    left: 50px;
+    line-height: 1.6;
+    color: #747378;
+}
+.lists li{
+    font-size: 15px;
+    position: relative;
+    top: 180px;
+    left: 120px;
+    line-height: 1.6;
+    color: #747378;
+}
+.see-list{
+    font-size: 18px;
+    font-weight: 700;
+    color: #390e7d;
+    position: relative;
+    left: 50px;
+    top: 230px;
+}
+.list-arrow{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    left: 150px;
+    top: 210px;
+}
+.box2{
+    height: 630px;
+    width: 530px;
+    background-color: #181220;
+    position: relative;
+    top: 260px;
+    left: 600px;
+    display: inline-block;
+}
+
+.btn-list{
+    background-color: #0068bc;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 12px;
+    height: 35px;
+    width: 160px;
+    position: relative;
+    top: 230px;
+    left: 60px;
+}
+
+.cercle{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 1760px;
+    top: 220px;
 }
